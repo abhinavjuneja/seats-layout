@@ -3,6 +3,10 @@
 
 This package helps you create layout for seat booking, using Angular 5.
 
+#### NPM Install:
+
+    npm i seats-layout --save 
+
   
 ##### Html template: 
 
