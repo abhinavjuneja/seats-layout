@@ -23,7 +23,7 @@ This package helps you create layout for seat booking, using Angular 5.
 
 ##### Define a function which does stuff with the emitted object ie. array of selected seats:
     getSelected(event){
-    //Do stuff
+      //Do stuff
     	console.log(event)
     }
 
