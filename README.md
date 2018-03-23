@@ -23,6 +23,6 @@ This package helps you create layout for seat booking, using Angular 5.
     	console.log(event)
     }
 
-
+Screenshot:
 https://www.dropbox.com/s/ohpe03bwfc6ulfm/seats.PNG?raw=0
  
