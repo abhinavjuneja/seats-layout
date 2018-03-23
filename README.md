@@ -6,7 +6,7 @@ This package helps you create layout for seat booking, using Angular 5.
   
 ##### Html template: 
 
-    <layout \[seatsLayout\]="seatsLayout" (confirm)="getSelectedSeats($event)"></layout>
+    <layout [seatsLayout]="seatsLayout" (confirm)="getSelectedSeats($event)"></layout>
 
 ##### Define `seatsLayout` Object with these properties [`totalRows, seatsPerRow, seatNaming, booked`]:
 
@@ -14,7 +14,7 @@ This package helps you create layout for seat booking, using Angular 5.
       	totalRows:10,
 		seatsPerRow:6,
 		seatNaming:'rowType',
-		booked:\['1A','5D'\]   
+		booked:['1A','5D']   
 	}
 
 ##### Define a function which does stuff with the emitted object ie. array of selected seats:
@@ -24,4 +24,4 @@ This package helps you create layout for seat booking, using Angular 5.
     }
 
 
-![image](./seats.PNG)
+![image](./seats_preview (1).png)
