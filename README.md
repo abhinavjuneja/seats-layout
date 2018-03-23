@@ -24,4 +24,4 @@ This package helps you create layout for seat booking, using Angular 5.
     }
 
 
-![image](./seats.PNG)
+![image](./seats_preview (1).png)
