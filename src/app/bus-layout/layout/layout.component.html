@@ -1,0 +1,21 @@
+<div class="plane">
+
+  <div class="exit exit--front fuselage">
+
+  </div>
+  <ol class="cabin fuselage">
+    <li *ngFor="let seats of rows" class="row row--1">
+      <ol class="seats" type="A">
+        <li *ngFor="let seat of seats" class="seat">
+          <input (click)="seatAction(seat)" type="checkbox" [checked]="seatsLayout?.booked?.includes(seat)" [id]="seat" />
+          <label [for]="seat">{{seat}}</label>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <div class="exit exit--back fuselage">
+
+  </div>
+</div>
+
+<button (click)="done()">Done</button>
